@@ -1,18 +1,32 @@
 body{
 	font-family: 'Open Sans',sans-serif;
-	background-color: black;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 #container{
 	width: 1000px;
 	height: 550px;
-	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(bgImg.jpg);
+	background-image: linear-gradient(rgba(255, 254, 254, 0.884),rgba(202, 41, 41, 0.74)), url(bgImg.jpg);
 	margin: 20px auto;	
 }
 #calculator{
 	width: 320px;
 	height: 520px;
-	background-color: #eaedef;
-	margin: 0 auto;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;	margin: 0 auto;
 	top: 20px;
 	position: relative;
 	border-radius: 5px;
@@ -62,21 +76,26 @@ body{
 }
 button:nth-child(4){
 	font-size: 20px;
-	background-color: #20b2aa;
+	background-color: #d6e228ea;
+    ;
 }
 button:nth-child(8){
 	font-size: 20px;
-	background-color: #ffa500;
+	background-color: #d6e228ea;
 }
 button:nth-child(12){
 	font-size: 20px;
-	background-color: #f08080;
+	background-color: #d6e228ea;
 }
 button:nth-child(16){
 	font-size: 20px;
-	background-color: #7d93e0;
+	background-color: #d6e228ea;
 }
 button:nth-child(20){
 	font-size: 20px;
-	background-color: #9477af;
+	background-color: #d6e228ea;
+}
+button:hover{
+    opacity: 0.7;
+    background: #d61b2b;
 }
