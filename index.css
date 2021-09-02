@@ -40,9 +40,10 @@ body{
 	height: 20px;
 	margin: 0 20px;
 	padding-top: 20px;
-	font-size: 15px;
-	color: #919191;
+	font-size: 25px;
+	color: #0a0a0a;
 }
+
 #output{
 	text-align: right;
 	height: 60px;
@@ -94,8 +95,4 @@ button:nth-child(16){
 button:nth-child(20){
 	font-size: 20px;
 	background-color: #d6e228ea;
-}
-button:hover{
-    opacity: 0.7;
-    background: #d61b2b;
 }
